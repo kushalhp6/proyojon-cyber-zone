@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyojon Cyber Zone</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Additional styling */
+    </style>
+</head>
+<body class="font-sans antialiased">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-lg font-semibold">Proyojon Cyber Zone</a>
+            <div class="block lg:hidden">
+                <button id="nav-toggle" class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden lg:flex lg:items-center lg:w-auto" id="nav-content">
+                <a href="#hero" class="block lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">Home</a>
+                <a href="#services" class="block lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">Services</a>
+                <a href="#about" class="block lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">About</a>
+                <a href="#contact" class="block lg:inline-block lg:mt-0 text-white hover:text-gray-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+<section id="hero" class="relative bg-cover bg-center h-screen" style="background-image: url('./attachments/bg1.jpg');">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="container mx-auto h-full flex items-center justify-center">
+        <div class="text-center text-white relative z-10">
+            <h1 class="text-4xl lg:text-6xl font-bold">Welcome to Proyojon Cyber Zone</h1>
+            <p class="mt-4 text-lg lg:text-xl">Your ultimate destination for all cyber needs.</p>
+            <a href="#services" class="mt-8 inline-block bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded">Learn More</a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Services Section -->
+<section id="services" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center">Our Services</h2>
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Service 1: Aadhar Card -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="./attachments/mustaq1.jpg" alt="Aadhar Card Service" class="w-full h-40 object-cover rounded-t-lg">
+                <h3 class="mt-4 text-xl font-semibold">Aadhar Card</h3>
+                <p class="mt-2 text-gray-600">We provide services for creating and updating Aadhar Cards efficiently.</p>
+            </div>
+            <!-- Service 2: PAN Card -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="./attachments/mustaq2.jpg" alt="PAN Card Service" class="w-full h-40 object-cover rounded-t-lg">
+                <h3 class="mt-4 text-xl font-semibold">PAN Card</h3>
+                <p class="mt-2 text-gray-600">Get your PAN Card made or updated with our hassle-free service.</p>
+            </div>
+            <!-- Service 3: Ration Card -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="./attachments/shop1.jpg" alt="Ration Card Service" class="w-full h-40 object-cover rounded-t-lg">
+                <h3 class="mt-4 text-xl font-semibold">Ration Card</h3>
+                <p class="mt-2 text-gray-600">We assist in the creation and renewal of Ration Cards.</p>
+            </div>
+            <!-- Service 4: Birth Certificate -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="./attachments/shop2.jpg" alt="Birth Certificate Service" class="w-full h-40 object-cover rounded-t-lg">
+                <h3 class="mt-4 text-xl font-semibold">Birth Certificate</h3>
+                <p class="mt-2 text-gray-600">Easily obtain birth certificates with our reliable service.</p>
+            </div>
+            <!-- Service 5: Voter Card -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="./attachments/shop1.jpg" alt="Voter Card Service" class="w-full h-40 object-cover rounded-t-lg">
+                <h3 class="mt-4 text-xl font-semibold">Voter Card</h3>
+                <p class="mt-2 text-gray-600">We offer voter card creation and updating services.</p>
+            </div>
+            <!-- Service 6: Ticket Reservations -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="./attachments/shop2.jpg" alt="Ticket Reservation Service" class="w-full h-40 object-cover rounded-t-lg">
+                <h3 class="mt-4 text-xl font-semibold">Ticket Reservations</h3>
+                <p class="mt-2 text-gray-600">Book your travel tickets conveniently with our service.</p>
+            </div>
+            <!-- Service 7: Loan Processing -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="./attachments/mustaq1.jpg" alt="Loan Processing Service" class="w-full h-40 object-cover rounded-t-lg">
+                <h3 class="mt-4 text-xl font-semibold">Loan Processing</h3>
+                <p class="mt-2 text-gray-600">We assist in processing loans with all necessary documentation.</p>
+                <ul class="mt-2 text-gray-600 list-disc pl-5">
+                    <li>Aadhar Card</li>
+                    <li>PAN Card</li>
+                    <li>Email</li>
+                    <li>Mobile No</li>
+                    <li>6 Months Bank Statement</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- About Us Section -->
+<section id="about" class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="md:flex md:items-center">
+            <div class="md:w-1/2">
+                <img src="./attachments/shop1.jpg" alt="About Us" class="w-full h-64 object-cover rounded-lg">
+            </div>
+            <div class="md:w-1/2 md:pl-8 mt-8 md:mt-0">
+                <h2 class="text-3xl font-bold">About Us</h2>
+                <p class="mt-4 text-gray-600">Welcome to Proyojon Cyber Zone, your one-stop destination for all your cyber needs. We are located in Champahati South 24 Parganas, right at the railway station market.</p>
+                <p class="mt-2 text-gray-600">Our opening hours are from 9:30 AM to 10:00 PM, ensuring that you have access to our services throughout the day.</p>
+                <p class="mt-2 text-gray-600">Feel free to contact us at:</p>
+                <ul class="mt-2 text-gray-600 list-disc pl-5">
+                    <li>Phone: 9836720210 / 8777387130</li>
+                    <li>Email: <a href="mailto:proyojoncyberzone@gmail.com" class="text-blue-600 hover:underline">proyojoncyberzone@gmail.com</a></li>
+                    <li>Alternate Email: <a href="mailto:jio.mustaq@gmail.com" class="text-blue-600 hover:underline">jio.mustaq@gmail.com</a></li>
+                </ul>
+                <p class="mt-2 text-gray-600">Owner: Mustaq</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+<section id="contact" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center">Contact Us</h2>
+        <div class="mt-8 flex justify-center">
+            <form class="w-full max-w-lg">
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full px-3">
+                        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="name">
+                            Name
+                        </label>
+                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="name" type="text" placeholder="Your Name">
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full px-3">
+                        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="email">
+                            Email
+                        </label>
+                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full px-3">
+                        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="message">
+                            Message
+                        </label>
+                        <textarea class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="button" onclick="sendEmail()">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script>
+    function sendEmail() {
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+        const subject = `New message from ${name}`;
+        const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${message}`;
+        
+        window.location.href = `mailto:proyojoncyberzone@gmail.com?subject=${subject}&body=${body}`;
+    }
+</script>
+
+<!-- License Section -->
+<section id="licenses" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center">Our Licenses</h2>
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- License 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold">License 1</h3>
+                <p class="mt-2 text-gray-600 cursor-pointer" onclick="toggleLicense('license1')">View License</p>
+                <img id="license1" src="./attachments/trade1.jpg" alt="License 1" class="w-full h-64 object-cover rounded-lg hidden">
+            </div>
+            <!-- License 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold">License 2</h3>
+                <p class="mt-2 text-gray-600 cursor-pointer" onclick="toggleLicense('license2')">View License</p>
+                <img id="license2" src="./attachments/trade 2.jpg" alt="License 2" class="w-full h-64 object-cover rounded-lg hidden">
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function toggleLicense(licenseId) {
+        const license = document.getElementById(licenseId);
+        if (license.classList.contains('hidden')) {
+            license.classList.remove('hidden');
+        } else {
+            license.classList.add('hidden');
+        }
+    }
+</script>
+
+<!-- Developer Section -->
+<section id="developer" class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center">Our Developer</h2>
+        <div class="mt-8 md:flex md:items-center">
+            <!-- Text Column -->
+            <div class="md:w-1/2 md:pr-8">
+                <h3 class="text-2xl font-semibold">Kushal Dalal</h3>
+                <p class="mt-2 text-lg text-gray-600">Full Stack Engineer</p>
+                <p class="mt-4 text-gray-600">WhatsApp: <a href="tel:+6294134884" class="text-blue-600 hover:underline">6294134884</a></p>
+            </div>
+            <!-- Image Column -->
+            <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center">
+                <img src="./kd.JPG" alt="Kushal Dalal" class="w-3/4 md:w-1/2 h-auto rounded-lg object-cover">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-4">
+        <div class="container mx-auto text-center text-white">
+            <p>&copy; 2024 Proyojon Cyber Zone. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Navbar -->
+    <script>
+        const navToggle = document.getElementById('nav-toggle');
+        const navContent = document.getElementById('nav-content');
+
+        navToggle.addEventListener('click', () => {
+            navContent.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
